@@ -8,6 +8,24 @@
 // var name = window.prompt("Enter Ypur name");
 // alert("your name is"+ name);
 
-var header=document.getElementById("myHeader");
-header.style="color:blue; background-color:red;"
-header.innerHTML="Abeysekarage";
+// var header=document.getElementById("myHeader");
+// header.style="color:blue; background-color:red;"
+// header.innerHTML="Abeysekarage";
+
+var luckyNumber= [4, 8, 12, 26, "twenty", false];
+luckyNumber[0]= 90;
+
+document.write(luckyNumber[0] + "</br>");
+document.write(luckyNumber[4] + "</br>");
+document.write(luckyNumber.length);
+
+var friends= new Array();
+friends.push("oshan");
+friends.push("sameera");
+friends.push("Abeysekarage");
+
+document.write(friends + "</br>")
+document.write(friends.indexOf("osham") + "</br>");
+document.write(friends.indexOf("z") + "</br>");
+document.write(friends.reverse + "</br>");
+document.write(friends.sort);
