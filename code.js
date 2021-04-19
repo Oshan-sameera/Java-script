@@ -12,20 +12,34 @@
 // header.style="color:blue; background-color:red;"
 // header.innerHTML="Abeysekarage";
 
-var luckyNumber= [4, 8, 12, 26, "twenty", false];
-luckyNumber[0]= 90;
+// var luckyNumber= [4, 8, 12, 26, "twenty", false];
+// luckyNumber[0]= 90;
 
-document.write(luckyNumber[0] + "</br>");
-document.write(luckyNumber[4] + "</br>");
-document.write(luckyNumber.length);
+// document.write(luckyNumber[0] + "</br>");
+// document.write(luckyNumber[4] + "</br>");
+// document.write(luckyNumber.length);
 
-var friends= new Array();
-friends.push("oshan");
-friends.push("sameera");
-friends.push("Abeysekarage");
+// var friends= new Array();
+// friends.push("oshan");
+// friends.push("sameera");
+// friends.push("Abeysekarage");
 
-document.write(friends + "</br>")
-document.write(friends.indexOf("osham") + "</br>");
-document.write(friends.indexOf("z") + "</br>");
-document.write(friends.reverse + "</br>");
-document.write(friends.sort);
+// document.write(friends + "</br>")
+// document.write(friends.indexOf("osham") + "</br>");
+// document.write(friends.indexOf("z") + "</br>");
+// document.write(friends.reverse + "</br>");
+// document.write(friends.sort);
+
+var studenst={
+name : "jim",
+major : "Business",
+age : 19,
+gpa : 2.5
+
+
+}
+studenst.name ="oshan";
+document.write(studenst.name + "</br>");
+document.write(studenst.age + "</br>");
+
+
