@@ -30,16 +30,23 @@
 // document.write(friends.reverse + "</br>");
 // document.write(friends.sort);
 
-var studenst={
-name : "jim",
-major : "Business",
-age : 19,
-gpa : 2.5
+// var studenst={
+// name : "jim",
+// major : "Business",
+// age : 19,
+// gpa : 2.5
 
 
+// }
+// studenst.name ="oshan";
+// document.write(studenst.name + "</br>");
+// document.write(studenst.age + "</br>");
+
+
+
+var sum= addNumbers(4, 69);
+document.write(sum);
+
+function addNumbers(num1, num2){
+    return num1 + num2;
 }
-studenst.name ="oshan";
-document.write(studenst.name + "</br>");
-document.write(studenst.age + "</br>");
-
-
