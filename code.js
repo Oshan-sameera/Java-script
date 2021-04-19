@@ -8,3 +8,6 @@
 // var name = window.prompt("Enter Ypur name");
 // alert("your name is"+ name);
 
+var header=document.getElementById("myHeader");
+header.style="color:blue; background-color:red;"
+header.innerHTML="Abeysekarage";
